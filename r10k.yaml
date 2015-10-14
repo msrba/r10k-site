@@ -1,0 +1,8 @@
+# The location to use for storing cached Git repos
+:cachedir: '/var/cache/r10k'
+
+# A list of git repositories to create
+:sources:
+    :r10k-cloud:
+        remote: https://github.com/msrba/r10k-site.git
+        basedir: /etc/puppet/environments
